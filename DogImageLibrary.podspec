@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
 
   # Exclude source_files since there are none
   # spec.source_files     = 'DogImageLibraryFrameWork/**/*.{h,m,swift}'
-  spec.requires_arc     = true
+  # spec.requires_arc     = true
 end
