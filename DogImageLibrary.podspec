@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DogImageLibrary"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = 'A library for fetching and displaying dog images.'
 
   # This description is used to generate tags and improve search results.
@@ -64,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.vendored_frameworks = 'DogImageLibrary.xcframework'
-  s.platform     = :ios, '13.0'
+  spec.vendored_frameworks = 'DogImageLibrary.xcframework'
+  spec.platform     = :ios, '13.0'
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/raoBhavaniIos/DogImageLibraryFrameWork.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/raoBhavaniIos/DogImageLibrary.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
