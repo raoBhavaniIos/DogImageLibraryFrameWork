@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   DogImageLibrary is a powerful library that allows developers to easily fetch, display, and cache dog images in their iOS applications. It supports various breeds and offers high-resolution images.
   DESC
 
-  spec.homepage     = "https://github.com/raoBhavaniIos/DogImageLibrary"
+  spec.homepage     = "https://github.com/raoBhavaniIos/DogImageLibraryFrameWork"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/raoBhavaniIos/DogImageLibrary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/raoBhavaniIos/DogImageLibraryFrameWork.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
